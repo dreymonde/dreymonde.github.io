@@ -7,10 +7,9 @@
 
 # Site settings
 title: Swift Alone
-header: He Swifts alone
 email: dreymonde@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  A tiny blog about my own Swift thoughts and discoveries. Highly opinionated. Mostly for beginnes.
+  A tiny blog about my own Swift thoughts and discoveries. Highly opinionated. Mostly for beginners.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dreymonde.github.io" # the base hostname & protocol for your site
 twitter_username: dreymonde
