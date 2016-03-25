@@ -12,11 +12,13 @@ error: module file's minimum deployment target is OS X v10.11:
 ~~~
 
 You just need to pass another option to compiler
+
 ~~~
 -target x86_64-apple-macosx10.11
 ~~~
 
 So your shebang will look like this:
+
 ~~~
 #!/usr/bin/env xcrun swift -F Carthage/Build/Mac -target x86_64-apple-macosx10.11
 ~~~
