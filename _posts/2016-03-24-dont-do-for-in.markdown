@@ -83,7 +83,7 @@ let lonelyUsers = users.filter({ $0.isLonely })
 And if we want to find just one value, we can always do that:
 
 ~~~
-let matchingGroup = groups.filter({ $0.name.contains("14-1") }).first
+let matchingGroup = groups.lazy.ilter({ $0.name.contains("14-1") }).first
 ~~~
 
 This one will return an optional, because our filtering can give us no result.
